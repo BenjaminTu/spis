@@ -17,6 +17,7 @@ RUN apt-get update && apt-get install -y \
     nginx \
     gettext-base \
     ffmpeg \
+    apache2-utils \
     && rm -rf /var/lib/apt/lists/*
 
 # Set spis variables

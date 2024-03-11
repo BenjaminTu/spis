@@ -242,3 +242,6 @@ $ make dev-gui
 ```
 
 And then open http://localhost:7000 in your browser
+
+## Auth
+Nginx uses basic auth with credentials in `/etc/nginx/.htpasswd`
